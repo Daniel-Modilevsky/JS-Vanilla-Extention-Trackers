@@ -1,0 +1,30 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "assets/icon128.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ 
+         "assets/libs/jquery-3.3.1.min.js", 
+         "scripts/content-scripts.js" 
+      ],
+      "matches": [ 
+        "<all_urls>" 
+      ]
+   }],
+   "description": "Extension - Find Trackers",
+   "icons": {
+      "128": "assets/icon128.png"
+   },
+   "manifest_version": 2,
+   "name": "Itamar Yarden & Daniel Modilrvsky",
+   "permissions": [ "activeTab", "storage" ],
+   "version": "1",
+   "web_accessible_resources": [ "assets/*" ]
+}

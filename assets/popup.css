@@ -1,0 +1,54 @@
+body{
+    width: 630px;
+    background-color: #282c34;
+    padding: 2%;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    color: #9ae7a5;
+    margin-bottom: 5%;
+    background-color: #282c34;
+}
+#badges{
+    margin-bottom: 5%;
+    background-color: #282c34;
+}
+#trackers{
+    margin-bottom: 5%;
+    background-color: #282c34;
+    border: 0;
+}
+
+.card{
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid #282c34;
+}
+h4{
+    color: white;
+}
+
+.btn{
+    margin-left: 1%;
+}
+
+span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-decoration-line: none;
+    margin: 0 auto;
+}
+
+.toggle{
+    text-decoration: none;
+    text-align: center;
+    text-decoration-line: none;
+}
+.card-body{
+    background-color: #282c34;
+    color: rgb(160, 94, 94);
+}
